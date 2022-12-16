@@ -35,7 +35,8 @@ if direction == "left":
     if water == "wait":
         door = (
             input(
-                "Miraculously a boat comes your way and takes you to a building with three doors. Which door do you choose? Red, green, or blue?\n"
+                "Miraculously a boat comes your way and takes you to a building with three doors."
+                " Which door do you choose? Red, green, or blue?\n"
             )
         ).lower()
         if door == "yellow":
@@ -44,17 +45,17 @@ if direction == "left":
             print("Game over. Behind the red door was a killer clown. You dead.")
         elif door == "blue":
             print(
-                "Game over. The blue door took you to a locked room that's playing Nickelback 24/7. Sorry"
+                "Game over. The blue door took you to a locked room that's playing Nickel-back 24/7. Sorry"
             )
         else:
-            print("Game over. You have choosen poorly.")
+            print("Game over. You have chosen poorly.")
     elif water == "swim":
         print("Game over. A great white shark swoops in and eats you. Ouch.")
     else:
-        print("Game over. You have choosen poorly.")
+        print("Game over. You have chosen poorly.")
 elif direction == "right":
     print(
         "Game over. You run into a local tribe and they kill you where you stand. Sorry"
     )
 else:
-    print("Game over. You have choosen poorly.")
+    print("Game over. You have chosen poorly.")
